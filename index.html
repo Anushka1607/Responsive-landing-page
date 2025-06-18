@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Landing Page</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <i class="bi bi-lightning-charge-fill animate-bounce me-2"></i> Prodigy Infotech
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container text-white" data-aos="fade-up">
+      <h1 class="display-4 fw-bold">Welcome to Our Landing Page</h1>
+      <p class="lead">Building responsive, interactive web experiences with ❤️</p>
+      <a href="#contact" class="btn btn-warning btn-lg mt-3">
+        <i class="bi bi-rocket-takeoff-fill"></i> Get Started
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="fullscreen-section" data-aos="fade-right">
+    <div class="container text-center">
+      <h2 class="mb-4">About Us</h2>
+      <p>We are passionate developers delivering clean, fast and responsive user interfaces that users love to use.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="fullscreen-section" data-aos="fade-left">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Services</h2>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <i class="bi bi-laptop display-4 mb-3"></i>
+          <h5>Web Development</h5>
+          <p>Modern, responsive websites using the latest technologies.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="bi bi-phone display-4 mb-3"></i>
+          <h5>Mobile Friendly</h5>
+          <p>All pages are fully responsive for mobile and tablet views.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="bi bi-lightbulb display-4 mb-3"></i>
+          <h5>Creative Design</h5>
+          <p>Fresh and modern UI/UX focused on user engagement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="fullscreen-section" data-aos="zoom-in">
+    <div class="container text-center">
+      <h2 class="mb-4">Contact Us</h2>
+      <p>Have a question or want to work with us? Reach out anytime!</p>
+      <a href="mailto:info@example.com" class="btn btn-outline-dark mt-2">
+        <i class="bi bi-envelope-fill"></i> Email Us
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-white bg-dark py-3">
+    <p class="mb-0">© 2025 Prodigy Infotech Task-01 | Built by [Anushka Rane]</p>
+  </footer>
+
+  <!-- Scroll to top -->
+  <button onclick="scrollToTop()" class="scroll-top-btn btn btn-warning">
+    <i class="bi bi-arrow-up-short fs-4"></i>
+  </button>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
